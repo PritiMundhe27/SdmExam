@@ -1,0 +1,63 @@
+SRS: Online project management system
+
+1:purpose
+
+The purpose of this document is to provide a detailed description of the project management system.
+It outlines the functional and non-functional requirements, constraints,and interfaces of the system.
+
+2:Scope
+
+The project Management System is a web-based application that allows organizations
+to manage project information, track working, handle delivery and generate reports. 
+The system will provide an efficient and centralized solution for managing project-related tasks.
+
+Functional requirements:
+2.1 Project Information Management
+- Administrators should be able to add, update, and delete project records.
+- Each project record should include details such as name, project ID, requirement information,
+ alocatted department.
+2.2  project Tracking:
+ Manager should be able to track the project working.
+- The system should calculate the total working hours/days and maintain a record of daily, weekly,
+ monthly and yearly progress.
+
+2.3 Notifications and Reminders
+- The system should send notifications and reminders to administrator for pending requirements,
+ upcoming meetings, or other important events.
+- Notifications can be delivered via email, SMS, or through the system's user interface.
+
+
+Non-Functional Requirements:
+1: Security
+The project data should be securely stored and accessible only to authorized personnel.
+- User authentication and access control mechanisms should be implemented.
+- Sensitive information should be stored using encryption.
+
+2: Usability
+The user interface should be intuitive and user-friendly.
+- The system should provide clear and informative error messages.
+- The system should support multiple languages if required.
+
+3: Performance
+The system should handle concurrent user requests without significant performance degradation.
+- The response time for retrieving project records, generating reports, 
+and processing requests should be minimal.
+
+4. Constraints
+- The Project Management System will be developed using a web-based architecture.
+- The system should be compatible with popular web browsers such as Chrome, Firefox, and Safari.
+- The system should be responsive and accessible on different devices (desktops, tablets, mobile phones).
+
+5. Interfaces
+- User Interface: The system will provide a web-based user interface for administrators, managers, 
+and employees to interact with.
+- Database: The system will interact with a database to store and retrieve project information,
+ tracking progress and delivery.
+
+
+
+
+
+
+
+
